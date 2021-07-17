@@ -1,0 +1,25 @@
+###
+GET http://localhost:1315/players/
+
+###
+GET http://localhost:1315/players/4/
+
+###
+PUT http://localhost:1315/players/4/
+Content-Type: application/json
+
+{
+    "playerName": "Raju"
+}
+
+###
+GET http://localhost:1315/matches/18/
+
+###
+GET http://localhost:1315/players/4/matches/
+
+###
+GET http://localhost:1315/matches/2/players
+
+###
+GET http://localhost:1315/players/1/playerScores/
